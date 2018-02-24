@@ -15,7 +15,9 @@ age_cutoff = date.today()
 
 def calculate_age(birthdate, cutoff):
 	try:
+		#parse ISO 8601 time to datetime format
 		b = datetime.strptime(birthdate, "%Y-%m-%d")
+		#compare years directly and subtract one if birthday hasn't happened yet this year
 		return cutoff.year - b.year - ((cutoff.month, cutoff.day) < (b.month, b.day))
 	except ValueError:
 		print("Was not able to calculate an age for the birthdate input " + birthdate + ". This may be an incorrectly formatted date.")
