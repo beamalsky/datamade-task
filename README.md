@@ -2,7 +2,7 @@
 
 A mini coding task completed for DataMade.
 
-#The prompt
+## The prompt
 
 **Spreadsheet manipulation**
 
@@ -15,12 +15,14 @@ channels
 For each row in the output, make sure to keep all of the columns from the original data
 source.
 
-#Setup
+## Setup
 
 1. Make sure you have [Python 2.7+ installed](https://www.python.org/downloads/).
 2. Clone this repo.
 3. Navigate to the directory in Terminal and run:
 
-`python legisfilter.py `
+```bash
+  python legisfilter.py
+  ```
 
 The script should create two new spreadsheets with filtered data: "legislators_under_45.csv" and "legislators_on_social_media.csv"
