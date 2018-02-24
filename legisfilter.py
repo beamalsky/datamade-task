@@ -1,3 +1,5 @@
+#Generate two csv files from a list of Illinois legislators, one containing legislators under 45 and the other containing legislators with both a Twitter and YouTube account on file.
+
 import csv
 from datetime import date, datetime
 
